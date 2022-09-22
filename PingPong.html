@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game hứng bóng phá gạch</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="./font/icon/css/all.css" />
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="titlegame">
+            <h1>Game PING PONG</h1>
+        </div>
+        <div class="gamebox">
+            <div class="gameplay">
+                <canvas id="gameview" width="1200" height="500"> </canvas>
+                <!-- <div class="score-img">
+                    <img src="./img/score.svg" alt="" />
+                </div> -->
+                <i class="fas fa-flag">Level</i>
+                <i class="fas fa-heart">Life</i>
+                <i class="fas fa-star">Score</i>
+                <div id="noti-game">
+                    <img src="./img/win.svg" alt="" id="noti-win" />
+                    <img src="./img/gameover.svg" alt="" id="noti-gameover" />
+                    <i id="play-again" class="fas fa-redo-alt">Play again</i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/game.js"></script>
+
+</html>
